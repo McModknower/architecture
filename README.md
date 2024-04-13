@@ -4,7 +4,7 @@ This repository contains the description of a custom untitled computer architect
 
 This architecture was made just for fun, and is implemented as described here in a save file on my pc. If you want to know anything about it that is not described here, join the turing complete discord and ping me in #computer-architecture, or open an issue.
 
-This is a risc, save-load, fixed with, 3 octet architecture with a focus on easy implementation in the game.
+This is an 8-bit, risc, save-load, fixed with, 4 octet instruction architecture with a focus on easy implementation in the game.
 
 ## Parts
 
