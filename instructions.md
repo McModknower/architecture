@@ -69,7 +69,18 @@ Together these can express a multitude of conditions. Below is a table with the 
 | <=127   | 0011     | a>=b                                  |
 
 ### Storage
-TODO
+Storage opcodes use the top two bits to indicate what device is used.
+00 is for RAM while 01 is for the level IO.
+10 and 11 are reserved for future use.
+
+The second lowest bit says if a save operation should be done.
+The lowest bit says if a load operation should be done.
+
+RAM operations use the first argument as the adress and the second argument as the value.
+Level IO operations don't have an adress, so they use the first argument as the value and ignore the second argument.
+
+For example, 0010 means that arg2 should be saved to RAM at location arg1,
+and 0101 means that something the value from the level input should be saved into destination.
 
 ### ALU
 TODO
