@@ -83,4 +83,12 @@ For example, 0010 means that arg2 should be saved to RAM at location arg1,
 and 0101 means that something the value from the level input should be saved into destination.
 
 ### ALU
-TODO
+The ALU instructions are best described as a table:
+| bits | operation |
+|------|-----------|
+| 0000 | AND       |
+| 0001 | NAND      |
+| 0010 | NOR       |
+| 0011 | OR        |
+| 1000 | ADD       |
+| 1001 | SUB       |
